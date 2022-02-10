@@ -11,7 +11,7 @@ let messageFour = document.querySelector('#messageFour')
 let messageFive = document.querySelector('#messageFive')
 
 buttonOne.addEventListener("click",function(){
-    messageOne.textContent = 'You are Garret the Master Thief and my Age IV practice partner.'
+    messageOne.textContent = 'You are Garret the master thief and my Age IV practice partner.'
 })
 
 buttonTwo.addEventListener("click",function(){

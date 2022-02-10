@@ -1,3 +1,18 @@
 body{
     text-align: center;
+    background: linear-gradient(0.25turn, #6c42f5, #ebf8e1, #f542b3);
+    font-family: Georgia;
+    margin: 0;
+    padding-top: 75px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+.button{
+    background-color: #6c42f5;
+    font-family: cambria;
+    border-radius: 10px;
+}
+.message{
+    background: linear-gradient(to bottom left, orange, white);
+    border-radius: 10px;
 }
