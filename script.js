@@ -10,6 +10,8 @@ let messageThree = document.querySelector('#messageThree')
 let messageFour = document.querySelector('#messageFour')
 let messageFive = document.querySelector('#messageFive')
 
+let image = document.querySelector('#image')
+
 buttonOne.addEventListener("click",function(){
     messageOne.textContent = 'You are Garret the master thief and my Age IV practice partner.'
 })
@@ -28,4 +30,5 @@ buttonFour.addEventListener("click",function(){
 
 buttonFive.addEventListener("click",function(){
     messageFive.textContent = 'And most importantly, you are my best friend and the love of my life!'
+    image.style.display = 'block';
 })
