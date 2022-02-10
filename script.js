@@ -11,7 +11,7 @@ let messageFour = document.querySelector('#messageFour')
 let messageFive = document.querySelector('#messageFive')
 
 buttonOne.addEventListener("click",function(){
-    messageOne.textContent = 'You are a Master Thief!'
+    messageOne.textContent = 'You are Garret the Master Thief and my Age IV practice partner.'
 })
 
 buttonTwo.addEventListener("click",function(){
@@ -19,13 +19,13 @@ buttonTwo.addEventListener("click",function(){
 })
 
 buttonThree.addEventListener("click",function(){
-    
+    messageThree.textContent = 'You are my cooking/baking partner.'
 })
 
 buttonFour.addEventListener("click",function(){
-
+    messageFour.textContent = 'You are the smartest scientist I know.'
 })
 
 buttonFive.addEventListener("click",function(){
-
+    messageFive.textContent = 'And most importantly, you are my best friend and the love of my life!'
 })
